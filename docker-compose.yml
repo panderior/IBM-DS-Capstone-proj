@@ -1,0 +1,12 @@
+services:
+  plotly:
+    container_name: spacex-plotly-dashboard
+    build: 
+      context: ./
+    command: python ./spacex-dash-app.py
+    volumes:
+      - ./:/usr/src/app/
+    ports:
+          - "8050:8050"
+    env_file:
+      - ${ENV_FILE:-.env}
