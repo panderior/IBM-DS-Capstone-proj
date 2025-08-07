@@ -13,7 +13,9 @@
 > It includes the whole process of obtaining and wrangling data, performing EDA, getting location and map based insights, training a Machine Learning model and developing a dashboard for interactive experiance with the data.
 
 <p align="center">
-  <a href="https://github.com/panderior/IBM-DS-Capstone-proj/blob/main/report/ds-capstone-report-coursera.pdf">Report</a>
+    <a href="https://www.coursera.org/professional-certificates/ibm-data-science">Specialization Course</a> &nbsp; | &nbsp;
+    <a href="https://github.com/panderior/IBM-DS-Capstone-proj/blob/main/report/ds-capstone-report-coursera.pdf">Report</a> &nbsp; | &nbsp;
+    <a href="https://www.coursera.org/account/accomplishments/professional-cert/X3QNM59QZ3LJ">Certificate</a>
 </p>
 
 ---
@@ -65,8 +67,6 @@ As an alternative, users can run the Dash plotly script directly. However, in th
 <!-- last stop -->
 - running the mlflow server
     `mlflow server --host 127.0.0.1 --port 8080`
-
-
 
 
 
