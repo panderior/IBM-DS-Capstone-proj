@@ -5,9 +5,10 @@ from dash import html
 from dash import dcc
 from dash.dependencies import Input, Output
 import plotly.express as px
+import os
 
 # Read the airline data into pandas dataframe
-spacex_df = pd.read_csv("spacex_launch_dash.csv")
+spacex_df = pd.read_csv("data/spacex_launch_dash.csv")
 max_payload = spacex_df['Payload Mass (kg)'].max()
 min_payload = spacex_df['Payload Mass (kg)'].min()
 
@@ -121,4 +122,6 @@ def get_scatter_chart(entered_site, payload_range):
 
 # Run the app
 if __name__ == '__main__':
-    app.run()
+    port = int(os.getenv('PORT', 8050))
+    host = os.getenv('HOST', '0.0.0.0')
+    app.run_server(host=host, port=port)
