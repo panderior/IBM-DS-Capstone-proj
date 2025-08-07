@@ -1,0 +1,14 @@
+artifact_uri: file:///media/storage/Projects/MOOC/IBM%20DS/final_project/mlruns/754228530263979258/f465a3c62a4e4e8aa0e9e284ea32022d/artifacts
+end_time: 1754039648510
+entry_point_name: ''
+experiment_id: '754228530263979258'
+lifecycle_stage: active
+run_id: f465a3c62a4e4e8aa0e9e284ea32022d
+run_name: KNN
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754039639732
+status: 3
+tags: []
+user_id: dobrilla

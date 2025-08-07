@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/449179538257636366/80c894901d2a42a3a2143e39a7351bd8/artifacts
+end_time: 1754040860180
+entry_point_name: ''
+experiment_id: '449179538257636366'
+lifecycle_stage: active
+run_id: 80c894901d2a42a3a2143e39a7351bd8
+run_name: SVM_trial_4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754040856197
+status: 3
+tags: []
+user_id: dobrilla

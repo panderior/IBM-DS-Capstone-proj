@@ -1,0 +1,10 @@
+artifact_location: file:///media/storage/Projects/MOOC/IBM%20DS/final_project/mlruns/754228530263979258/models/m-aae952a744d6491280febf590d6ead2e/artifacts
+creation_timestamp: 1754039548414
+experiment_id: '754228530263979258'
+last_updated_timestamp: 1754039552868
+model_id: m-aae952a744d6491280febf590d6ead2e
+model_type: ''
+name: model
+source_run_id: 2e93543e94184111a1b5178bdbe054bb
+status: 2
+status_message: null

@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/597039470532417865/c8786753f7504a32b6c7e47f31715b55/artifacts
+end_time: 1754041607453
+entry_point_name: ''
+experiment_id: '597039470532417865'
+lifecycle_stage: active
+run_id: c8786753f7504a32b6c7e47f31715b55
+run_name: Linear Regression_trial_0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754041599604
+status: 3
+tags: []
+user_id: dobrilla

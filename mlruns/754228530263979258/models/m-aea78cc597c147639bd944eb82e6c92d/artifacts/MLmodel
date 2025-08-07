@@ -1,0 +1,22 @@
+artifact_path: file:///media/storage/Projects/MOOC/IBM%20DS/final_project/mlruns/754228530263979258/models/m-aea78cc597c147639bd944eb82e6c92d/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.5
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.1
+mlflow_version: 3.1.4
+model_id: m-aea78cc597c147639bd944eb82e6c92d
+model_size_bytes: 23120
+model_uuid: m-aea78cc597c147639bd944eb82e6c92d
+prompts: null
+run_id: 8dcdb119cee04fb886010a5b7faf67fa
+utc_time_created: '2025-08-01 09:04:17.195783'

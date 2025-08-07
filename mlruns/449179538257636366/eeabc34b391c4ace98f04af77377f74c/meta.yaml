@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/449179538257636366/eeabc34b391c4ace98f04af77377f74c/artifacts
+end_time: 1754041437035
+entry_point_name: ''
+experiment_id: '449179538257636366'
+lifecycle_stage: active
+run_id: eeabc34b391c4ace98f04af77377f74c
+run_name: KNN_trial_8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754041430106
+status: 3
+tags: []
+user_id: dobrilla

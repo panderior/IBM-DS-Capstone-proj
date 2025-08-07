@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/597039470532417865/3102e07bc2ac49cf9f26d3088c3e064e/artifacts
+end_time: 1754041650393
+entry_point_name: ''
+experiment_id: '597039470532417865'
+lifecycle_stage: active
+run_id: 3102e07bc2ac49cf9f26d3088c3e064e
+run_name: Decision Tree
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754041619480
+status: 3
+tags: []
+user_id: dobrilla

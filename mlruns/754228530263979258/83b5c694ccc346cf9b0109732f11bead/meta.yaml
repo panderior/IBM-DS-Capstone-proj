@@ -1,0 +1,14 @@
+artifact_uri: file:///media/storage/Projects/MOOC/IBM%20DS/final_project/mlruns/754228530263979258/83b5c694ccc346cf9b0109732f11bead/artifacts
+end_time: 1754039777856
+entry_point_name: ''
+experiment_id: '754228530263979258'
+lifecycle_stage: active
+run_id: 83b5c694ccc346cf9b0109732f11bead
+run_name: Linear Regression
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754039770039
+status: 3
+tags: []
+user_id: dobrilla
