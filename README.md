@@ -53,7 +53,7 @@ The purpose of the notebooks located under the notebooks directory is specified 
 
 ### Method 2: running python script
 As an alternative, users can run the Dash plotly script directly. However, in this case users will be responsible in installing all the required libraries and setting up a suitable enviroment.
-1. Create a virtual enviroment of thier choice and activate it.
+1. Create a virtual enviroment of choice and activate it.
 2. Install the required libraries from the [requirements.txt](./requirements.txt) file.
     - `pip install -r requirements.txt`
 3. Run the plotly dashboard script.
