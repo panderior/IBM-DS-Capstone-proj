@@ -1,3 +1,8 @@
+"""
+Author: Duguma Y. (panderior)
+Date: August 12, 2025; 4 pm
+"""
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -12,6 +17,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from tqdm import tqdm
 import mlflow
 import datetime
+import argparse
 
 # helper functions
 def train_lr(temp_X_train, temp_X_test, temp_Y_train, temp_Y_test):
@@ -87,12 +93,16 @@ def train_knn(temp_X_train, temp_X_test, temp_Y_train, temp_Y_test):
 
     return knn_cv
 
-# Run mlflow
+# Run mlflow train
 if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description="Log model data through MLflow result.")
+    parser.add_argument("--exp_name", required=True, help="Experiment ID or name")
+    args = parser.parse_args()
+
     start_time = datetime.datetime.now()
     
     mlflow.set_tracking_uri(uri="http://127.0.0.1:8080/")
-    mlflow.set_experiment("Space-X ML Experiment")
+    mlflow.set_experiment(args.exp_name)
 
     URL1 = "https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DS0321EN-SkillsNetwork/datasets/dataset_part_2.csv"
     data = pd.read_csv(URL1)
