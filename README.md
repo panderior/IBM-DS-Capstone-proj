@@ -64,12 +64,18 @@ As an alternative, users can run the Dash plotly script directly. However, in th
 
 ---
 ## MLFlow
-<!-- last stop -->
-- running the mlflow server
-    `mlflow server --host 127.0.0.1 --port 8080`
+MLFlow can be used to run and log multiple runs of the ML models. Thereafter a python script can be used to connect to MLFlow API to the best inidividual and aggregate model results based on metrics.
+1. Create a virtual enviroment of choice and activate it.
+2. Install the required libraries from the [requirements.txt](./requirements.txt) file.
+    - `pip install -r requirements.txt`
+3. First run the MLFLow server on a terminal.
+    - `mlflow server --host 127.0.0.1 --port 8080`
+4. Then on another terminal run the MLFlow trainer and logger script ([mlflow_train_script.py](./mlflow_train_script.py)). Provide an experiment name to log the ML models results to.
+    - `python mlflow_train_script.py  --exp_name "Space-X ML Experiment"`
+3. Finally the best individual and aggregate ML models results can be viewed by running the results python script ([mlflow_result_script.py](./mlflow_result_script.py)). Provide the experiment name to get the results from and the metrics to compare on (default is `test_accuracy`).
+    - `python mlflow_result_script.py  --exp_name "Space-X ML Experiment" --metric test_accuracy`
 
-
-
+![MLFlow UI](./assets/MLFlow_UI.png)
 ---
 ## License
 This opensource project is licensed under Apache 2.0 license. For more details please refer to the [LICENSE](./LICENSE.md)

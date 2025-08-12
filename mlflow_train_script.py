@@ -147,6 +147,7 @@ if __name__ == '__main__':
                         mlflow.log_param(k, v)
 
                     # log train & test accuracies
+                    mlflow.log_param("model", model_name)
                     mlflow.log_metric("train_accuracy", gs.best_score_)
                     mlflow.log_metric("test_accuracy",  test_acc)
 
