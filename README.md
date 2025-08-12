@@ -76,6 +76,7 @@ MLFlow can be used to run and log multiple runs of the ML models. Thereafter a p
     - `python mlflow_result_script.py  --exp_name "Space-X ML Experiment" --metric test_accuracy`
 
 ![MLFlow UI](./assets/MLFlow_UI.png)
+
 ---
 ## License
 This opensource project is licensed under Apache 2.0 license. For more details please refer to the [LICENSE](./LICENSE.md)
