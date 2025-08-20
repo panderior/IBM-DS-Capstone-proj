@@ -8,6 +8,8 @@ import os
 
 REPO_URL = "https://github.com/panderior/IBM-DS-Capstone-proj"
 REPORT_URL = "https://github.com/panderior/IBM-DS-Capstone-proj/blob/main/report/ds-capstone-report-coursera.pdf"
+AUTHOR_GITHUB_URL = "https://github.com/panderior"
+AUTHOR_LINKEDIN_URL = "https://www.linkedin.com/in/duguma-yeshitla/"
 
 # Read the data
 spacex_df = pd.read_csv("data/spacex_launch_dash.csv")
@@ -78,6 +80,9 @@ app.layout = html.Div(
                         **Links**
                         - 📦 **Repository:** [GitHub repo ↗](""" + REPO_URL + """)
                         - 📄 **Report:** [Project report ↗](""" + REPORT_URL + """)
+
+                        **Author**
+                        - Duguma Y. (panderior): [LinkedIn ↗](""" + AUTHOR_LINKEDIN_URL + """) | [GitHub ↗](""" + AUTHOR_GITHUB_URL + """)
                         """
                     ),
                     style={
