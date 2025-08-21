@@ -15,7 +15,8 @@
 <p align="center">
     <a href="https://www.coursera.org/professional-certificates/ibm-data-science">Specialization Course</a> &nbsp; | &nbsp;
     <a href="https://github.com/panderior/IBM-DS-Capstone-proj/blob/main/report/ds-capstone-report-coursera.pdf">Report</a> &nbsp; | &nbsp;
-    <a href="https://www.coursera.org/account/accomplishments/professional-cert/X3QNM59QZ3LJ">Certificate</a>
+    <a href="https://www.coursera.org/account/accomplishments/professional-cert/X3QNM59QZ3LJ">Certificate</a> &nbsp; | &nbsp;
+    <a href="https://ibm-ds.pazd.org/">Demo</a>
 </p>
 
 ---
