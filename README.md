@@ -48,7 +48,7 @@ The purpose of the notebooks located under the notebooks directory is specified 
 ## Plotly Dashboard
 ### Method 1: using Docker
 1. In the parent project directory run the docker-compose command to create an image and run it.
-    - `docker compose up -d`
+    - `docker compose up -d --build` or `docker-compose up -d --build`
 2. Access the dashboard on the host ip address and port. If no changes are made, the default port is 8050.
 
 ### Method 2: running python script
