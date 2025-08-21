@@ -57,9 +57,36 @@ site_options = [{"label": "All Sites", "value": "ALL"}] + [
 def serve_layout():
     return html.Div(
             children=[
-                html.H1(
-                    "SpaceX Launch Records Dashboard",
-                    style={"textAlign": "center", "color": "#503D36", "fontSize": 40},
+                html.Div(
+                    [
+                        html.Img(
+                            src=app.get_asset_url("ibm_ds_logo.jpeg"),
+                            alt="IBM Data Science badge",
+                            style={
+                                "height": "72px",     
+                                "width": "auto",
+                                "display": "block",
+                            },
+                        ),
+                        html.H1(
+                            "SpaceX Launch Records Dashboard",
+                            style={
+                                "margin": 0,
+                                "color": "#503D36",
+                                "fontSize": 40,
+                                "lineHeight": "1.1",
+                                "textAlign": "left",
+                            },
+                        ),
+                    ],
+                    style={
+                        "display": "flex",
+                        "alignItems": "center",
+                        "justifyContent": "center", 
+                        "gap": "16px",
+                        "marginBottom": "8px",
+                        "flexWrap": "wrap",        
+                    },
                 ),
 
                 # --------- Collapsible "About" panel (collapsed by default) ----------
